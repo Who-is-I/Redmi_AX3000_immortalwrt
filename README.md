@@ -1,3 +1,10 @@
+Folk至Kmiit，本次Folk仅添加
+CONFIG_PACKAGE_kmod-tun=y
+CONFIG_PACKAGE_kmod-inet-diag=y
+CONFIG_PACKAGE_kmod-nft-tproxy=y
+
+以下为原版Readme
+
 ImmortalWrt For Redmi AX3000
 ============================
 
