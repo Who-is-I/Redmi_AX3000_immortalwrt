@@ -43,6 +43,7 @@ jobs:
 
       - name: Configure
         run: |
+          cat configs/openclash.config >> .config
           cat <<EOF | sed -E 's/^  //' >.config
             CONFIG_TARGET_qualcommax=y
             CONFIG_TARGET_qualcommax_ipq50xx=y
