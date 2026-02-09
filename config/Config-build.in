@@ -434,5 +434,10 @@ menu "Global build settings"
 		  This option enables seccomp kernel features to safely
 		  execute untrusted bytecode and selects the seccomp-variants
 		  of procd
+	
+	CONFIG_PACKAGE_kmod-tun=y
+    CONFIG_PACKAGE_kmod-inet-diag=y
+    CONFIG_PACKAGE_kmod-nft-tproxy=y
+    CONFIG_PACKAGE_luci-app-openclash=y
 
 endmenu
